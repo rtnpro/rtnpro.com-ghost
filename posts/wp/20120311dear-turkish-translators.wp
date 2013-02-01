@@ -1,0 +1,33 @@
+<html><body><p>Transifex usually defines plural rules for languages according to <a href="http://unicode.org/repos/cldr-tmp/trunk/diff/supplemental/language_plural_rules.html">http://unicode.org/repos/cldr-tmp/trunk/diff/supplemental/language_plural_rules.html</a>. So, the plural rule for Turkish language in Transifex is <strong>other →</strong> <strong><em>everything</em></strong>. However, lately there has been some requests that the Turkish language should have two plural forms:
+
+</p><blockquote>nplurals=2; plural=(n&gt;1)</blockquote>
+
+The requests have been with reference to <a href="http://translate.sourceforge.net/wiki/l10n/pluralforms">http://translate.sourceforge.net/wiki/l10n/pluralforms</a>.
+
+
+
+Here is a quote from a user at <a href="https://bitbucket.org/indifex/transifex/issue/26/turkish-plural-forms">https://bitbucket.org/indifex/transifex/issue/26/turkish-plural-forms</a>:
+
+<blockquote>Turkish behaves like Akan for example. The rule should be:
+
+
+
+One: 0, 1 Other: 2-999
+
+
+
+It is only when including a count that there are no plural forms. For example:
+
+
+
+"You posted a photo", "You posted several photos"
+
+
+
+is correct in Turkish, as is:
+
+
+
+"You posted 1 photo", "You posted 6 photo".</blockquote>
+
+So, dear Turkish translators, please share your opinion on this issue. This will help a lot to resolve this issue at Transifex and fix plural translations in Turkish language.</body></html>

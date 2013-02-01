@@ -1,0 +1,49 @@
+<html><body><p>Day 2 of FUDCON KL started with a talk on <a href="http://fedorareloaded.com/">Fedora book</a> by <a href="http://www.atmayogi.com/taxonomy/term/11/0">Joshua Wulf</a> (for me Sitapati Prabhu). This idea is very intuitive for any one (especially newbies) to start contributing to Fedora documentation. Although, contributors need to know some basics of docbook, I guess that's not tough.
+
+
+
+There were many interesting talks for the day on topics like Ask Fedora, <a href="http://www.transifex.com">Transifex</a>, Fedora Tour, etc. <a href="http://soumya.dgplug.org/">Soumay</a>'s talk on Fedora in Education was really inspiring. He shared how he initially started as a contributor and many things about <a href="http://dgplug.org/">DGPLUG</a>'s <a href="http://bijra.dgplug.org/">Bijra project</a>. Following this talk, there was another talk by <a href="soumya.dgplug.org">Soumya</a> on <a href="http://ask.fedoraproject.org/">Ask Fedora</a>. This one explained to the attendees what is Ask Fedora, why was it needed and how it can be used. Soumya also explained to the attendees that Ask Fedora runs on <a href="http://askbot.com/">Askbot</a> (an Open Source QA forum) and encouraged people to contribute to Askbot.
+
+
+<div class="row">
+  <div class="span3">
+    <a href="/galleries/wp/2012/05/dsc00630.jpg"><img class="img-polaroid" title="DSC00630" src="/galleries/wp/2012/05/dsc00630.jpg" alt="" width="300" height="200"></a>
+  </div>
+  <div class="span3">
+    <a href="/galleries/wp/2012/05/dsc00642.jpg"><img class="img-polaroid" title="DSC00642" src="/galleries/wp/2012/05/dsc00642.jpg" alt="" width="300" height="200"></a>
+  </div>
+</div>
+
+After lunch, it was time for my and Mahay's talk on Effective localization Crowdsourcing (using <a href="www.transifex.com">Transifex</a>). Mahay stared the talk explaining to the attendees about localization, internationalization and it's importance. This helped set the scene for the entire talk. Then I spoke on the various gotchas in the traditional localization workflow and how Fedora tried to get rid of these gotchas using <strong>Transifex</strong>. I explained to people about Transifex, what it does and why it's so awesome. I also explained about the various super cool features in Transifex like <strong>crowdsourcing</strong>, <strong>project management</strong>, <strong>release management</strong>, <strong>Translation Memory</strong>, <strong>glossary</strong>, etc. I also told the attendees about how to contribute to <strong>Transifex</strong>.
+
+
+<div class="row">
+  <div class="span3">
+    <a href="/galleries/wp/2012/05/dsc00647.jpg"><img class="img-polaroid" title="DSC00647" src="/galleries/wp/2012/05/dsc00647.jpg" alt="" width="300" height="200"></a>
+  </div>
+  <div class="span3">
+    <a href="/galleries/wp/2012/05/dsc00665.jpg"><img class="img-polaroid" title="DSC00665" src="/galleries/wp/2012/05/dsc00665.jpg" alt="" width="300" height="200"></a>
+  </div>
+</div>
+
+
+
+Well, that was not all. It was followed by another session on <strong>How to internationalize and localize softwares</strong>. I took example of a simple Django app and explained how to i18n (using gettext) the app and extract the source POT file. Then I showed how to localize it using Transifex. I gave the attendees a walk through from creating a Transifex account to creating a project, resources, releases, forming teams, translating and finally to downloading translations and deploying it in their app. I also mentioned about other i18n methods available for different languages and directed people to the necessary <a href="http://help.transifex.com/features/formats.html">resources</a>. With this, I finally concluded my talk.
+
+
+
+<a href="/galleries/wp/2012/05/dsc00671.jpg"><img class="size-thumbnail wp-image-484 alignnone" title="DSC00671" src="/galleries/wp/2012/05/dsc00671.jpg?w=150" alt="" width="150" height="112"></a><a href="/galleries/wp/2012/05/dsc00666.jpg"><img class="alignnone size-thumbnail wp-image-485" title="DSC00666" src="/galleries/wp/2012/05/dsc00666.jpg?w=150" alt="" width="150" height="112"></a>
+
+
+
+After the talk, it was time for some tea and then lightning talks. <a href="http://www.christoph-wickert.de/">Christoph Wickert</a>'s talks on LXDE and Clouds were super cool. <a href="http://hircus.wordpress.com/">Michel</a> also spoke on the ROX DE and ROX filer. We had some post session discussions and some group pics.
+
+
+
+<a href="/galleries/wp/2012/05/dsc00677.jpg"><img class="alignnone size-thumbnail wp-image-486" title="DSC00677" src="/galleries/wp/2012/05/dsc00677.jpg?w=150" alt="" width="150" height="112"></a><a href="/galleries/wp/2012/05/dsc00679.jpg"><img class="alignnone size-thumbnail wp-image-487" title="DSC00679" src="/galleries/wp/2012/05/dsc00679.jpg?w=150" alt="" width="150" height="112"></a><a href="/galleries/wp/2012/05/dsc00697.jpg"><img class="alignnone size-thumbnail wp-image-488" title="DSC00697" src="/galleries/wp/2012/05/dsc00697.jpg?w=150" alt="" width="150" height="112"></a>
+
+
+
+Today was the day for FUDPub. It was supposed to start at 8 PM at Sri Petaling Hotel. We reached the hotel and had some rest. Then we moved downstairs to join FUDPub. It was hell lot of fun out there.
+
+<p style="text-align:center;"><a href="/galleries/wp/2012/05/dsc00732.jpg"><img class="size-full wp-image-489 aligncenter" title="DSC00732" src="/galleries/wp/2012/05/dsc00732.jpg" alt="" width="150" height="112"></a><a href="/galleries/wp/2012/05/dsc00712.jpg"><img class="alignnone size-thumbnail wp-image-496" title="DSC00712" src="/galleries/wp/2012/05/dsc00712.jpg?w=150" alt="" width="150" height="112"></a><a href="/galleries/wp/2012/05/dsc00745.jpg"><img class="alignnone size-thumbnail wp-image-495" title="DSC00745" src="/galleries/wp/2012/05/dsc00745.jpg?w=150" alt="" width="150" height="112"></a><a href="/galleries/wp/2012/05/dsc00753.jpg"><img class="alignnone size-thumbnail wp-image-493" title="DSC00753" src="/galleries/wp/2012/05/dsc00753.jpg?w=150" alt="" width="150" height="112"></a></p></body></html>

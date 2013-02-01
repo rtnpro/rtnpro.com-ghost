@@ -1,0 +1,9 @@
+<html><body><p>It's greatly annoying that I am not able to do koji scratch builds or fedpkg builds. I had discussion with nirik at #fedora-admin. He asked me to show him the outputs of a couple of commands. I updated to koji 1.6. Still, the problem is persistent. I guess, it is not actually a bug, otherwise others would have surely reported. I think it is some small configuration issue that is being overlooked.
+
+
+
+You can see my bug report at <a href="https://bugzilla.redhat.com/show_bug.cgi?id=668947">https://bugzilla.redhat.com/show_bug.cgi?id=668947.</a>
+
+
+
+Anyone is welcome to help.</p></body></html>

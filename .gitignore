@@ -1,0 +1,8 @@
+*.pyc
+*.swp
+output/*
+cache/*
+*.DS_Store
+.doit.db.db
+*_bak*
+

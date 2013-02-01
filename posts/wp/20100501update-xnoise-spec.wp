@@ -1,0 +1,151 @@
+<html><body><p>I got a nice and long review for my first package of xnoise :). You can read the review at
+
+
+
+<a href="https://bugzilla.redhat.com/show_bug.cgi?id=586433">https://bugzilla.redhat.com/show_bug.cgi?id=586433</a>
+
+
+
+I made the suggested changes -
+
+</p><blockquote>4c4
+
+&lt; Summary:        A media player for gtk+
+
+---
+
+&gt; Summary:        A media player for GTK+
+
+6c6
+
+&lt; License:        GPLv2
+
+---
+
+&gt; License:        GPLv2+
+
+12c12,14
+
+&lt; Source0:        xnoise-0.1.2.tar.gz
+
+---
+
+&gt; #   make dist
+
+&gt; #to generate xnoise-0.1.2.tar.bz2
+
+&gt; Source0:        xnoise-%{version}.tar.bz2
+
+15,16c17,20
+
+&lt; BuildArch:      i686
+
+&lt; BuildRequires:  vala, vala-devel, intltool, libtool, autogen, automake &gt;= 1.11, gnome-common, gtk2-devel, sqlite-devel, taglib-devel, unique-devel, gstreamer-devel, gstreamer-plugins-base-devel, gettext, desktop-file-utils
+
+---
+
+&gt; #BuildArch:      noarch
+
+&gt; BuildRequires:  intltool, libtool, autogen, automake &gt;= 1.11
+
+&gt; BuildRequires:  gnome-common, gtk2-devel, sqlite-devel, taglib-devel
+
+&gt; BuildRequires:  unique-devel, gstreamer-devel, gstreamer-plugins-base-devel, gettext, desktop-file-utils
+
+18c22
+
+&lt; Requires:   gstreamer, gstreamer-plugins-base, gtk2, gettext
+
+---
+
+&gt; #Requires:   gstreamer, gstreamer-plugins-base, gtk2
+
+21,32c25,27
+
+&lt; Xnoise is a media player for gtk+
+
+&lt; Xnoise is written in vala
+
+&lt; Xnoise can play every kind of audio/video data that gstreamer can handle
+
+&lt;
+
+&lt; #%package devel
+
+&lt; #Summary:    Development files for %{name}
+
+&lt; #Group:      Development/Libraries
+
+&lt; #License:    GPLv2
+
+&lt; #Requires:   %{name} = %{version}-%{release}
+
+&lt; #Requires:   pkgconfig
+
+&lt; #%description devel
+
+&lt; #Development packages for Xnoise
+
+---
+
+&gt; Xnoise is a media player written in vala for GTK+.
+
+&gt; Xnoise can play every kind of audio/video data that gstreamer can handle.
+
+&gt; Xnoise uses a tracklist centric design and uses a hierarchical tree structure media browser along with plugin interface. Xnoise is always running in a single instance,so that music files that are associated with it, will always be added to the tracklist instead of starting a new instance.
+
+67,70c62
+
+&lt; %{_libdir}/pkgconfig/xnoise-1.0.pc
+
+&lt; #%files devel
+
+&lt; #%{_libdir}/pkgconfig/xnoise-1.0.pc
+
+&lt; #%{_libdir}/xnoise
+
+---
+
+&gt; %exclude %{_libdir}/pkgconfig/xnoise-1.0.pc
+
+74,75c66,69
+
+&lt; * Tue Apr 27 2010 rtnpro &lt;rtnpro@gmail.com&gt; 0.1.2
+
+&lt; - RPM package xnoise
+
+---
+
+&gt; * Sat May 1 2010 rtnpro &lt;rtnpro@gmail.com&gt; 0.1.2-2
+
+&gt; - xnoise.spec file cleanup and some edits
+
+&gt; * Tue Apr 27 2010 rtnpro &lt;rtnpro@gmail.com&gt; 0.1.2-1
+
+&gt; - initial RPM package xnoise</blockquote>
+
+Submitted a scratch build at
+
+
+
+<a href="https://koji.fedoraproject.org/koji/taskinfo?taskID=2152364">https://koji.fedoraproject.org/koji/taskinfo?taskID=2152364</a>
+
+
+
+It got successfully packages this time for i686, ppc, x86_64 archs
+
+
+
+Finally I updated the spec and SRPM file at rtnpro.dgplug.org via rsync.
+
+
+
+Updated files at :
+
+
+
+<a href="http://rtnpro.dgplug.org/Packages/xnoise/xnoise-0.1.2-1.fc12.src.rpm">http://rtnpro.dgplug.org/Packages/xnoise/xnoise-0.1.2-1.fc12.src.rpm</a>
+
+
+
+<a href="http://rtnpro.dgplug.org/Packages/xnoise/xnoise.spec">http://rtnpro.dgplug.org/Packages/xnoise/xnoise.spec</a></body></html>

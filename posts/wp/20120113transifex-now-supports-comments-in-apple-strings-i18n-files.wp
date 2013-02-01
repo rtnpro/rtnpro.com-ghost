@@ -1,0 +1,41 @@
+<html><body><p>#Transifex now supports comments in Apple .strings i18n files. Only /* foo */ style comment in the line preceding the key value pair in the source file is saved as a comment for the key. The example below will explain this in a better way:
+
+
+
+[sourcecode]
+
+/*Comment for key1*/
+
+"key1" = "value 1";
+
+
+
+/* This comment will not be
+
+included in key2*/
+
+
+
+/* comment for
+
+key2*/
+
+"key2" = "value 2";
+
+
+
+/* this comment will not be included in key3*/
+
+
+
+"key3" = "value 3";
+
+
+~~~~~~~~~~~~
+
+
+Well, I'm pretty sure that the above snippet explains which comments from source Apple .strings file are saved by Transifex. You can see the comment for a source string in its "Details" section in Lotte.
+
+
+
+[caption id="attachment_384" align="alignnone" width="593" caption="Comment for a source string imported from a source Apple .strings file"]<a href="http://ratnadeepdebnath.files.wordpress.com/2012/01/download.png"><img class="size-full wp-image-384" title="AppleStringsComments" src="http://ratnadeepdebnath.files.wordpress.com/2012/01/download.png" alt="" width="593" height="241"></a>[/caption]</p></body></html>

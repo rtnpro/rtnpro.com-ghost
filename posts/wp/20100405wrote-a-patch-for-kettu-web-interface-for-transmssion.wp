@@ -1,0 +1,139 @@
+<html><body><p>Kettu is the new web interface for transmission bit torrent client. It is written using javascript and jquery. I wrote a small patch for kettu to filter the torrents on the basis of activity. Here activity means if the torrent is either uploading or downloading, i.e, upload_speed + download_speed &gt; 0 KBps.
+
+
+
+Here' s the patch I wrote :
+
+</p><blockquote>diff --git a/index.html b/index.html
+
+index 2a8ff97..b54b6b4 100644
+
+--- a/index.html
+
++++ b/index.html
+
+@@ -58,6 +58,7 @@
+
+&lt;a href="#" id="activate_sorts"&gt;Sort&lt;/a&gt; -&amp;nbsp;
+
+&lt;span id="filters"&gt;
+
+&lt;a href="#/torrents?filter=all"&gt;All&lt;/a&gt;
+
++            &lt;a href="#/torrents?filter=active"&gt;Activity&lt;/a&gt;
+
+&lt;a href="#/torrents?filter=downloading"&gt;Downloading&lt;/a&gt;
+
+&lt;a href="#/torrents?filter=seeding"&gt;Seeding&lt;/a&gt;
+
+&lt;a href="#/torrents?filter=paused"&gt;Paused&lt;/a&gt;
+
+@@ -94,4 +95,4 @@
+
+&lt;/nav&gt;
+
+&lt;/footer&gt;
+
+&lt;/body&gt;
+
+-&lt;/html&gt;
+
+\ No newline at end of file
+
++&lt;/html&gt;
+
+diff --git a/js/helpers/filter_torrents_helpers.js b/js/helpers/filter_torrents_helpers.js
+
+index 95f841e..3b54b2c 100644
+
+--- a/js/helpers/filter_torrents_helpers.js
+
++++ b/js/helpers/filter_torrents_helpers.js
+
+@@ -5,6 +5,12 @@ var FilterTorrentsHelpers = {
+
+
+
+if(filter_mode == 'all') {
+
+filtered_torrents = torrents;
+
++    } else if(filter_mode == 'active') {
+
++      $.each(torrents, function() {
+
++        if(this.activity()) {
+
++          filtered_torrents.push(this)
+
++        }
+
++      })
+
+} else {
+
+$.each(torrents, function() {
+
+if(this.status == stati[filter_mode]) {
+
+@@ -15,4 +21,4 @@ var FilterTorrentsHelpers = {
+
+
+
+return filtered_torrents;
+
+}
+
+-}
+
+\ No newline at end of file
+
++}
+
+diff --git a/js/models/torrent.js b/js/models/torrent.js
+
+index 8e39f1d..1bf2a2a 100644
+
+--- a/js/models/torrent.js
+
++++ b/js/models/torrent.js
+
+@@ -106,6 +106,7 @@ Torrent = function(attributes) {
+
+localized_stati[torrent.stati['downloading']] = 'Downloading';
+
+localized_stati[torrent.stati['seeding']] = 'Seeding';
+
+localized_stati[torrent.stati['paused']] = 'Paused';
+
++    localized_stati[torrent.stati['active']] = 'Activity';
+
+
+
+return localized_stati[this['status']] ? localized_stati[this['status']] : 'error';
+
+};
+
+@@ -138,4 +139,4 @@ Torrent = function(attributes) {
+
+};
+
+
+
+return torrent;
+
+-};
+
+\ No newline at end of file
+
++};</blockquote>
+
+The patch got accepted by the kettu upstream <strong>endor</strong> on  2010-03-29 and following is the patch commit link:
+
+
+
+<a href="http://github.com/endor/kettu/commit/5d3a64c4807eee6bbfbb2d3013e384971930bca8">http://github.com/endor/kettu/commit/5d3a64c4807eee6bbfbb2d3013e384971930bca8</a>
+
+
+
+Feels nice to have written my first patch :)</body></html>

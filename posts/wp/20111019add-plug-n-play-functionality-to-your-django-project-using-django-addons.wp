@@ -1,0 +1,53 @@
+<html><body><blockquote><strong>What is Django-addons?</strong></blockquote>
+
+A Django app used to add true plug-n-play functionality to your own Django applications and projects. Django-addons is brought to you by <a href="http://www.indifex.com">Indifex</a>, the company behind <a href="http://www.transifex.net">Transifex</a>.
+
+
+
+Django-addons is a bunch of code that makes writing addon/plugins for your Django project much easier. Add django-addons to your Django project and you can drop all the addons to '/addons' directory.
+
+<blockquote><strong>How to install Django-addons?</strong></blockquote>
+
+You can install the latest version of django-addons running
+
+<code>pip install django-addons</code>
+
+or
+
+<code>easy_install django-addons</code>
+
+
+
+You can also install the development version of django-addons with
+
+<code>pip install django-addons==dev</code>
+
+or
+
+<code>easy_install django-addons==dev</code>.
+
+<blockquote><strong>Source code</strong></blockquote>
+
+<a href="http://code.indifex.com/django-addons/">http://code.indifex.com/django-addons/</a>
+
+<blockquote><strong>Features</strong></blockquote>
+
+<ul><li>Addons overview page</li>
+
+	<li>Automatic signal connecting of addons</li>
+
+	<li>Automatic URL discovery of addons</li>
+
+	<li>Template hooking system (inject code from addons to your main project)</li>
+
+	<li>Django-staticfiles to serve site media from each addon</li>
+
+	<li>Django-notifications support (automatic registration of noticetypes)</li>
+
+	<li>Per addon localization</li>
+
+	<li>Per addon settings</li>
+
+	<li>Disabling addons via ./manage.py addons</li>
+
+</ul></body></html>

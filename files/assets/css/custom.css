@@ -1,0 +1,14 @@
+/* h1 {text-align: center; margin-bottom: 15px;} */
+
+.hero-unit{
+  overflow: auto;
+}
+
+.hero-h2-center h2{
+  text-align: center;
+}
+
+.profile-img{
+  position: relative;
+  top: -60px;
+}
