@@ -1,0 +1,9 @@
+[Core]
+Name = render_home
+Module = task_render_home
+
+[Documentation]
+Author = Ratnadeep Debnath
+Version = 0.1
+Website = http://nikola.ralsina.com.ar
+Description = Generate home page.
