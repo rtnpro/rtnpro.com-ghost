@@ -1,9 +1,7 @@
 # -*- coding: utf8 -*-
-
 import os
-
 from nikola.plugin_categories import Task
-from nikola import utils
+import json
 
 
 class RenderHome(Task):
@@ -14,15 +12,24 @@ class RenderHome(Task):
 
     def gen_tasks(self):
         template_name = "home.tmpl"
-        output_name = "index.html"
-
+        output_name = "output/index.html"
+        f = open(os.path.join(os.path.split(__file__)[0], 'projects.json'))
+        projects = json.load(f)
+        f.close()
         context = {
-            'msg': 'Hello world'
+            'lang': 'en',
+            'title': '@rtnpro',
+            'description': 'Welcome to @rtnpro\'s personal website.',
+            'upstream_projects': projects['upstream'],
+            'own_projects': projects['own']
         }
-        task = self.site.render_template(
+        context.update(self.site.config['GLOBAL_CONTEXT'])
+        self.site.render_template(
             template_name, output_name, context)
-        task['basename'] = 'render_home'
-        task['uptodate'] = True
-        task['clean'] = True
 
-        yield task
+        yield {
+            'basename': 'render_home',
+            'uptodate': [True],
+            'clean': True,
+            'actions': []
+        }

@@ -11,7 +11,7 @@ import time
 
 # Data about this site
 BLOG_AUTHOR = "Ratnadeep Debnath"
-BLOG_TITLE = "@rtnpro speaks..."
+BLOG_TITLE = "@rtnpro &nbsp;&nbsp;"
 BLOG_URL = "www.rtnpro.com/"
 BLOG_EMAIL = "rtnpro@gmail.com"
 BLOG_DESCRIPTION = "A small window into my life and work."
@@ -238,23 +238,30 @@ RSS_LINK = None
 # custom search (http://www.google.com/cse/)
 # Or a duckduckgo search: https://duckduckgo.com/search_box.html
 # This example should work for pretty much any site we generate.
-SEARCH_FORM = ""
+#SEARCH_FORM = ""
 # This search form is better for the "site" theme where it
 # appears on the navigation bar
-#SEARCH_FORM = """
-#<!-- Custom search -->
-#<form method="get" id="search" action="http://duckduckgo.com/"
-# class="navbar-form pull-left">
-#<input type="hidden" name="sites" value="%s"/>
-#<input type="hidden" name="k8" value="#444444"/>
-#<input type="hidden" name="k9" value="#D51920"/>
-#<input type="hidden" name="kt" value="h"/>
-#<input type="text" name="q" maxlength="255"
-# placeholder="Search&hellip;" class="span2" style="margin-top: 4px;"/>
-#<input type="submit" value="DuckDuckGo Search" style="visibility: hidden;" />
-#</form>
-#<!-- End of custom search -->
-#""" % BLOG_URL
+SEARCH_FORM = """
+<!-- Custom search -->
+<form method="get" id="search" action="http://duckduckgo.com/"
+ class="navbar-form pull-left">
+<input type="hidden" name="sites" value="%s"/>
+<input type="hidden" name="k8" value="#444444"/>
+<input type="hidden" name="k9" value="#D51920"/>
+<input type="hidden" name="kt" value="h"/>
+<input type="text" name="q" maxlength="255"
+ placeholder="Search&hellip;" class="span2" style="margin-top: 4px;"/>
+<input type="submit" value="DuckDuckGo Search" style="visibility: hidden;" />
+</form>
+<!-- End of custom search -->
+<!-- Social links -->
+<div class="pull-right" style="height: 40px; top: -10px; position: relative;">
+    <a href="https://twitter.com/rtnpro"><img src="/assets/images/small_icons/twitter.png"></a>
+    <a href="https://github.com/rtnpro"><img src="/assets/images/small_icons/github.png"></a>
+    <a href="/blog/rss.xml"><img src="/assets/images/small_icons/rss.png"></a>
+</div>
+<!-- End of social links -->
+""" % BLOG_URL
 
 # Google analytics or whatever else you use. Added to the bottom of <body>
 # in the default template (base.tmpl).
