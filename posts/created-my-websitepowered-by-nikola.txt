@@ -1,0 +1,26 @@
+.. title: Created my Nikola powered website
+.. slug: created-my-websitepowered-by-nikola
+.. date: 2013/02/03 17:06:35
+.. tags: www.rtnpro.com, nikola, rtnpro, Ratnadeep, MyGithubProjects
+.. link: http://www.rtnpro.com/blog/created-my-websitepowered-by-nikola.txt
+.. description: 
+
+
+Finally, I have created my first portfolio cum blog website at
+`www.rtnpro.com <http://www.rtnpro.com/>`_. I used
+`Nikola <http://nikola.ralsina.com.ar>`_ for this.
+
+The theme for the website uses the theme of `Twitter bootstrap
+<http://twitter.github.com/bootstrap/>`_ as it's base. A cool thing
+about my home page is that the projects section is dynamically
+generated using `MyGithubProjects <https://github.com/rtnpro/MyGithubProjects>`_
+to show the projects that I work on in Github: projects those I own and
+upstream projects I contribute to. So, I need not maintain the list of
+projects any more for my portfolio ;)
+
+It took me some time to integrate MyGithubProjects as task in Nikola
+to generate the home page from a custom template. Also, playing with
+styling for the page was fun. After putting all this time and effort,
+it seems pretty good enough to satiate me.
+
+You can find the code for my website `here <https://github.com/rtnpro/rtnpro.com>`_.
