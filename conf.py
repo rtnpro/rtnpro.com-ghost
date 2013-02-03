@@ -12,7 +12,7 @@ import time
 # Data about this site
 BLOG_AUTHOR = "Ratnadeep Debnath"
 BLOG_TITLE = "@rtnpro &nbsp;&nbsp;"
-BLOG_URL = "www.rtnpro.com/"
+BLOG_URL = "http://www.rtnpro.com/"
 BLOG_EMAIL = "rtnpro@gmail.com"
 BLOG_DESCRIPTION = "A small window into my life and work."
 
@@ -219,7 +219,7 @@ CONTENT_FOOTER = CONTENT_FOOTER.format(email=BLOG_EMAIL,
 # To enable comments via Disqus, you need to create a forum at
 # http://disqus.com, and set DISQUS_FORUM to the short name you selected.
 # If you want to disable comments, set it to False.
-DISQUS_FORUM = "nikolademo"
+DISQUS_FORUM = "rtnprodotcom"
 
 # Enable Addthis social buttons?
 # Defaults to true
