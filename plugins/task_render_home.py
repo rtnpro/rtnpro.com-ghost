@@ -18,7 +18,6 @@ class RenderHome(Task):
         f.close()
         context = {
             'lang': 'en',
-            'title': '@rtnpro',
             'description': 'Welcome to @rtnpro\'s personal website.',
             'upstream_projects': projects['upstream'],
             'own_projects': projects['own']

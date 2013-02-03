@@ -12,6 +12,7 @@ import time
 # Data about this site
 BLOG_AUTHOR = "Ratnadeep Debnath"
 BLOG_TITLE = "@rtnpro &nbsp;&nbsp;"
+SITE_TITLE = "Ratnadeep Debnath | @rtnpro"
 BLOG_URL = "http://www.rtnpro.com/"
 BLOG_EMAIL = "rtnpro@gmail.com"
 BLOG_DESCRIPTION = "A small window into my life and work."
@@ -274,6 +275,7 @@ GLOBAL_CONTEXT = {
     'analytics': ANALYTICS,
     'blog_author': BLOG_AUTHOR,
     'blog_title': BLOG_TITLE,
+    'site_title': SITE_TITLE,
     'blog_url': BLOG_URL,
     'blog_desc': BLOG_DESCRIPTION,
     'date_format': DATE_FORMAT,
@@ -289,7 +291,7 @@ GLOBAL_CONTEXT = {
     'sidebar_links': {
         DEFAULT_LANG: (
             ('/blog/index.html', 'Blog'),
-            ('/galleries/', 'Galleries'),
+            ('/galleries/index.html', 'Galleries'),
             ('/' + os.path.join(ARCHIVE_PATH, ARCHIVE_FILENAME), 'Archives'),
             ('/categories/index.html', 'Tags'),
             ),
