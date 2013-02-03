@@ -289,6 +289,7 @@ GLOBAL_CONTEXT = {
     'sidebar_links': {
         DEFAULT_LANG: (
             ('/blog/index.html', 'Blog'),
+            ('/galleries/', 'Galleries'),
             ('/' + os.path.join(ARCHIVE_PATH, ARCHIVE_FILENAME), 'Archives'),
             ('/categories/index.html', 'Tags'),
             ),
