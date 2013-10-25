@@ -1,6 +1,6 @@
 Resolved Kernel boot problem :D
 20090311resolved-kernel-boot-problem-d
 2009-03-11 07:36:45
-'/dev/root',(/dev/dm-1),2.6.27.19-170.2.35,boot,could not find,device,failure,Fedora,Fedora,filesystem,kernel,linux,linux,lvm,mount,ratnadeep,resume,rtnpro,unable access,VolGroup00/LogVol0
+'/dev/root',(/dev/dm-1),2.6.27.19-170.2.35,boot,could not find,device,failure,Fedora,Fedora,filesystem,kernel,linux,linux,lvm,mount,Ratnadeep,resume,rtnpro,unable access,VolGroup00/LogVol0
 
 None
