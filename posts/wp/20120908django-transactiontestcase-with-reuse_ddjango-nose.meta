@@ -1,6 +1,6 @@
 #django #TransactionTestCase with REUSE_DB=1 of #django-nose
 20120908django-transactiontestcase-with-reuse_ddjango-nose
 2012-09-08 16:33:18
-django,django,django-nose,python,python,Ratnadeep debnath,resuse_db=1,rtnpro,transactiontestcase
+python,resuse_db=1,django,Ratnadeep debnath,rtnpro,django-nose,transactiontestcase
 
 None

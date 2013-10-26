@@ -1,6 +1,6 @@
 App specific logging in Transifex
 20120630app-specific-logging-in-Transifex
 2012-06-30 05:49:21
-django,django,inspect,inspect.stack(),logger,python,python,Ratnadeep debnath,rtnpro,Transifex,Transifex
+inspect.stack(),python,inspect,django,Ratnadeep debnath,rtnpro,Transifex,logger
 
 None

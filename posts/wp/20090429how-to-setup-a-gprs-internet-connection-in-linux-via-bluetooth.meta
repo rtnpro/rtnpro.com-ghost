@@ -1,6 +1,6 @@
 How to setup a GPRS internet connection in Linux via bluetooth ...
 20090429how-to-setup-a-gprs-internet-connection-in-linux-via-bluetooth
 2009-04-29 16:58:29
-bluetooth,Fedora,hcitool scan,internet,linux,modem connection,Ratnadeep,rfcomm,rtnpro,system-config-network
+Fedora,rfcomm,rtnpro,system-config-network,internet,modem connection,bluetooth,linux,Ratnadeep,hcitool scan
 
 None
