@@ -20,7 +20,7 @@ def flushdb(cls):
         databases = [DEFAULT_DB_ALIAS]
     for db in databases:
         management.call_command('flush', verbosity=0,
-            interactive=False, database=db)
+        interactive=False, database=db)
 
 
 class BaseTransactionTestCase(TransactionTestCase):
