@@ -495,7 +495,7 @@ SEARCH_FORM = """
 <div class="pull-right" style="height: 40px; top: 3px; position: relative;">
     <a href="https://twitter.com/rtnpro"><img src="/assets/images/small_icons/twitter.png"></a>
     <a href="https://github.com/rtnpro"><img src="/assets/images/small_icons/github.png"></a>
-    <a href="/blog/rss.xml"><img src="/assets/images/small_icons/rss.png"></a>
+    <a href="/rss.xml"><img src="/assets/images/small_icons/rss.png"></a>
 </div>
 """ % SITE_URL
 #
