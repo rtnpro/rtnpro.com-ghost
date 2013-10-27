@@ -490,6 +490,12 @@ SEARCH_FORM = """
 <input type="submit" value="DuckDuckGo Search" style="visibility: hidden;" />
 </form>
 <!-- End of custom search -->
+<!-- Social links -->
+<div class="pull-right" style="height: 40px; top: 3px; position: relative;">
+    <a href="https://twitter.com/rtnpro"><img src="/assets/images/small_icons/twitter.png"></a>
+    <a href="https://github.com/rtnpro"><img src="/assets/images/small_icons/github.png"></a>
+    <a href="/blog/rss.xml"><img src="/assets/images/small_icons/rss.png"></a>
+</div>
 """ % SITE_URL
 #
 # If you prefer a google search form, here's an example that should just work:
