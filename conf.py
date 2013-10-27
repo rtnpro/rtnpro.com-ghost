@@ -63,9 +63,9 @@ TRANSLATIONS = {
 # You should provide a key-value pair for each used language.
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
+        ('/about.html', 'About'),
         ('/archive.html', 'Archives'),
         ('/categories/index.html', 'Tags'),
-        ('/rss.xml', 'RSS'),
     ),
 }
 
@@ -106,11 +106,12 @@ NAVIGATION_LINKS = {
 #
 
 POSTS = (
-    ("posts/*.rst", "blog", "post.tmpl"),
-    ("posts/*.txt", "blog", "post.tmpl"),
-    ("posts/wp/*.wp", "blog", "post.tmpl"),
+    ("posts/*.rst", "", "post.tmpl"),
+    ("posts/*.txt", "", "post.tmpl"),
+    ("posts/wp/*.wp", "", "post.tmpl"),
 )
 PAGES = (
+    ("stories/about.rst", "", "story.tmpl"),
     ("stories/*.rst", "stories", "story.tmpl"),
     ("stories/*.txt", "stories", "story.tmpl"),
 )
@@ -167,7 +168,7 @@ TAG_PATH = "categories"
 TAG_PAGES_ARE_INDEXES = True
 
 # Final location is output / TRANSLATION[lang] / INDEX_PATH / index-*.html
-INDEX_PATH = "blog"
+INDEX_PATH = ""
 
 # Create per-month archives instead of per-year
 # CREATE_MONTHLY_ARCHIVE = False
@@ -177,12 +178,12 @@ INDEX_PATH = "blog"
 # output / TRANSLATION[lang] / ARCHIVE_PATH / ARCHIVE_FILENAME
 # output / TRANSLATION[lang] / ARCHIVE_PATH / YEAR / index.html
 # output / TRANSLATION[lang] / ARCHIVE_PATH / YEAR / MONTH / index.html
-ARCHIVE_PATH = "blog"
+ARCHIVE_PATH = ""
 ARCHIVE_FILENAME = "archive.html"
 
 # Final locations are:
 # output / TRANSLATION[lang] / RSS_PATH / rss.xml
-RSS_PATH = "blog"
+RSS_PATH = ""
 
 # Number of posts in RSS feeds
 # FEED_LENGTH = 10
