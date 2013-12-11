@@ -23,6 +23,10 @@ ${helper.twitter_card_information(post)}
             % endif
             </%block>
         %endif
+        <div class="pull-right">
+            <div class="fb-like" data-href="${site_url_without_slash}${post.permalink()}" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
+            <a href="https://twitter.com/share" class="twitter-share-button" data-url="${site_url_without_slash}${post.permalink()}" data-via="your_screen_name" data-lang="en">Tweet</a>
+        </div>
     </small>
     <hr>
     ${post.text()}
