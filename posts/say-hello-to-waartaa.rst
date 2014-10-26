@@ -11,7 +11,7 @@ What is Waartaa?
 **Waartaa** or **wārtā** is a word in Hindi: **वार्ता**, which means **to communicate**. And that's what *waartaa* is for. *Waartaa* is a web based **IRC** client as a service and it facilitates centralized logging, idling functionality, unique identification across multiple clients and a rich UI for awesome user experience. *Waartaa* is open sourced under *MIT License*. The source is at `https://github.com/waartaa/waartaa/ <https://github.com/waartaa/waartaa>`_
 .You can download, fork, customize and setup *Waartaa* as a service anywhere, be it a single user laptop/desktop, server for your self and your friends.
 
-.. image:: galleries/waartaa/waartaa.png
+.. image:: /galleries/waartaa/waartaa.png
    :width: 90%
    :align: center
 
@@ -45,13 +45,13 @@ Beautiful and useful chat interface
 
     .. container:: col-md-8
 
-        .. image:: galleries/waartaa/waartaa_chat_logs.png
+        .. image:: /galleries/waartaa/waartaa_chat_logs.png
             :width: 100%
             :align: center
 
     .. container:: col-md-4
 
-        .. image:: galleries/waartaa/waartaa_nick_options.png
+        .. image:: /galleries/waartaa/waartaa_nick_options.png
             :width: 100%
             :align: center
 
@@ -62,13 +62,13 @@ Easy to join server/channel
 
     .. container:: col-md-6
 
-        .. image:: galleries/waartaa/waartaa_add_server.png
+        .. image:: /galleries/waartaa/waartaa_add_server.png
             :width: 100%
             :align: center
 
     .. container:: col-md-6
 
-        .. image:: galleries/waartaa/waartaa_channel_join.png
+        .. image:: /galleries/waartaa/waartaa_channel_join.png
             :width: 100%
             :align: center
 
@@ -79,19 +79,19 @@ Stylish menus
 
     .. container:: col-md-4
 
-        .. image:: galleries/waartaa/waartaa_server_menu.png
+        .. image:: /galleries/waartaa/waartaa_server_menu.png
             :width: 100%
             :align: center
 
     .. container:: col-md-4
 
-        .. image:: galleries/waartaa/waartaa_channel_menu.png
+        .. image:: /galleries/waartaa/waartaa_channel_menu.png
             :width: 100%
             :align: center
 
     .. container:: col-md-4
 
-        .. image:: galleries/waartaa/waartaa_channel_nick_menu.png
+        .. image:: /galleries/waartaa/waartaa_channel_nick_menu.png
             :width: 100%
             :align: center
 
@@ -103,13 +103,13 @@ Informative
 
     .. container:: col-md-3
 
-        .. image:: galleries/waartaa/waartaa_channel_connecting.png
+        .. image:: /galleries/waartaa/waartaa_channel_connecting.png
             :width: 100%
             :align: center
 
     .. container:: col-md-3 col-md-offset-1
 
-        .. image:: galleries/waartaa/waartaa_channel_unread_msg_count.png
+        .. image:: /galleries/waartaa/waartaa_channel_unread_msg_count.png
             :width: 100%
             :align: center
 

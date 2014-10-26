@@ -22,11 +22,11 @@ Pycon India 2013
 =================
 .. slides::
 
-    galleries/pycon_india_2013/9687103470_6867dd89e9 copy.jpg
-    galleries/pycon_india_2013/9683879767_e212d6cd6c.jpg
-    galleries/pycon_india_2013/9683910073_d6ebe42686.jpg
-    galleries/pycon_india_2013/9683923305_62bb872458.jpg
-    galleries/pycon_india_2013/9687104498_1b5c515b8b.jpg
+    /galleries/pycon_india_2013/9687103470_6867dd89e9 copy.jpg
+    /galleries/pycon_india_2013/9683879767_e212d6cd6c.jpg
+    /galleries/pycon_india_2013/9683910073_d6ebe42686.jpg
+    /galleries/pycon_india_2013/9683923305_62bb872458.jpg
+    /galleries/pycon_india_2013/9687104498_1b5c515b8b.jpg
 
 
 This year's Pycon was super awesome for many reasons. We had a large gathering of #dgplug folks for the first time in any conference. We had loads of discussions, brainstorming on project ideas and some hacking. I conducted a workshop on "Test your code" on the first day of Pycon. I got the chance to meet the **Kenneth Reitz**, the creator of *request*. I was greatly inspired by the keynote speech by Kiran. Among other talks, I also found Anisha's talk on *Functional testing with Python* quite interesting. This year, Goibibo sponsored Python and we had a Goibibo stall at the venue. We had quite a lot of activities going on at our stall. It was great fun. I spent most of the time during the conference hacking on `waartaa <https://github.com/rtnpro/waartaa>`_. I got some tips from Kaustav Das Modak on optimizing mongodb for waartaa. Most of the days ended with a #dgplug team dinner. The following day after Pycon, I, Sayan, Kushal and Kenneth went for a trip to Mysore. It was great fun.

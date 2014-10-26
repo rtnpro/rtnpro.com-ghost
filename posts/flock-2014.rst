@@ -5,7 +5,7 @@
 .. title: Flock 2014
 .. slug: flock-2014
 
-.. image:: galleries/Flock2014/flock-2014.png
+.. image:: /galleries/Flock2014/flock-2014.png
    :width: 30%
    :align: center
 
@@ -18,14 +18,14 @@ Flock. Flock was a 4 day event packed with loads of talks and workshops.
 It was like living in a dream at Flock. I was able to meet so many great people
 from the Fedora and Open Source community.
 
-.. image:: galleries/Flock2014/DSC04548.jpg
+.. image:: /galleries/Flock2014/DSC04548.jpg
    :width: 70%
    :align: center
 
 Day 1
 *****
 
-.. image:: galleries/Flock2014/DSC01935.jpg
+.. image:: /galleries/Flock2014/DSC01935.jpg
    :width: 100%
    :align: center
 
@@ -46,13 +46,13 @@ fonts and better quality fonts in Fedora.
 
     .. container:: col-md-6 col-sm-12 col-xs-12
 
-        .. image:: galleries/Flock2014/DSC01938.jpg
+        .. image:: /galleries/Flock2014/DSC01938.jpg
            :width: 90%
            :align: center
 
     .. container:: col-md-6 col-sm-12 col-xs-12
 
-        .. image:: galleries/Flock2014/DSC01985.jpg
+        .. image:: /galleries/Flock2014/DSC01985.jpg
            :width: 90%
            :align: center
 
@@ -78,7 +78,7 @@ followed by a talk on "Predictive Input Methods" by Anish and Mike.
 
     .. container:: col-md-6 col-sm-12 col-xs-12
 
-        .. image:: galleries/Flock2014/DSC02022.jpg
+        .. image:: /galleries/Flock2014/DSC02022.jpg
                :width: 90%
                :align: center
 
@@ -87,7 +87,7 @@ followed by a talk on "Predictive Input Methods" by Anish and Mike.
 
     .. container:: col-md-6
 
-        .. image:: galleries/Flock2014/DSC02069.jpg
+        .. image:: /galleries/Flock2014/DSC02069.jpg
                :width: 90%
                :align: center
 
@@ -99,7 +99,7 @@ followed by a talk on "Predictive Input Methods" by Anish and Mike.
 
 The day ended with a party at "The Pub".
 
-.. image:: galleries/Flock2014/DSC02170.jpg
+.. image:: /galleries/Flock2014/DSC02170.jpg
        :width: 60%
        :align: center
 
@@ -118,13 +118,13 @@ awesome talk on Ansible and it's usage in Fedora Infra by Aditya Patawari.
 
     .. container:: col-md-6 col-sm-12 col-xs-12
 
-        .. image:: galleries/Flock2014/DSC02285.jpg
+        .. image:: /galleries/Flock2014/DSC02285.jpg
            :width: 90%
            :align: center
 
     .. container:: col-md-6 col-sm-12 col-xs-12
 
-        .. image:: galleries/Flock2014/DSC02288.jpg
+        .. image:: /galleries/Flock2014/DSC02288.jpg
            :width: 90%
            :align: center
 
@@ -141,7 +141,7 @@ on Linux with Gergely afte the talk.
 
 The second day ended with an awesome boat party on the river Vltava.
 
-.. image:: galleries/Flock2014/DSC02612.jpg
+.. image:: /galleries/Flock2014/DSC02612.jpg
    :width: 100%
    :align: center
 
@@ -162,13 +162,13 @@ need helping hands.
 
     .. container:: col-md-6 col-sm-12 col-xs-12
 
-        .. image:: galleries/Flock2014/DSC02874.jpg
+        .. image:: /galleries/Flock2014/DSC02874.jpg
            :width: 90%
            :align: center
 
     .. container:: col-md-6 col-sm-12 col-xs-12
 
-        .. image:: galleries/Flock2014/DSC02913.jpg
+        .. image:: /galleries/Flock2014/DSC02913.jpg
            :width: 90%
            :align: center
 
@@ -178,7 +178,7 @@ Then there was a group photo session before lunch. As always, it was
 was taking the photographs, standing on the edge of a window a couple of
 floors above ;)
 
-.. image:: galleries/Flock2014/group_photo1.jpg
+.. image:: /galleries/Flock2014/group_photo1.jpg
    :width: 70%
    :align: center
 
@@ -193,13 +193,13 @@ package on Fedora tagger.
 
     .. container:: col-md-6 col-sm-12 col-xs-12
 
-        .. image:: galleries/Flock2014/DSC02980.jpg
+        .. image:: /galleries/Flock2014/DSC02980.jpg
            :width: 90%
            :align: center
 
     .. container:: col-md-6 col-sm-12 col-xs-12
 
-        .. image:: galleries/Flock2014/DSC02339.jpg
+        .. image:: /galleries/Flock2014/DSC02339.jpg
            :width: 90%
            :align: center
 
@@ -209,7 +209,7 @@ Following this I hanged around with
 designing a logo for Waartaa. Thanks a lot, folks :), now we have a logo for
 Waartaa.
 
-.. image:: galleries/Flock2014/DSC03089.jpg
+.. image:: /galleries/Flock2014/DSC03089.jpg
     :width: 70%
     :align: center
 
