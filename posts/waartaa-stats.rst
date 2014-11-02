@@ -1,6 +1,6 @@
 .. title: Waartaa stats
 .. slug: waartaa-stats
-.. date: 2014-10-27 10:41:48 UTC+05:30
+.. date: 2014-10-27 08:41:48 UTC+05:30
 .. tags: waartaa, irc, Fedora, meteorjs
 .. link: 
 .. description: Stats of try.waartaa.com
