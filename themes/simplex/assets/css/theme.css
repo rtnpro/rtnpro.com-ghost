@@ -21,3 +21,16 @@ body {
 small .label {
   font-size: 10px;
 }
+
+.fb-like, .twitter-share-button {
+  margin-top: 5px;
+}
+
+.twitter-share-button {
+  top: 5px;
+  position: relative;
+}
+
+h1 > a:hover {
+  text-decoration: none;
+}

@@ -13,7 +13,7 @@ ${helper.twitter_card_information(post)}
     ${helper.html_title()}
     <hr>
     <small>
-        <span class="glyphicon glyphicon-calendar"></span> <time class="published" datetime="${post.date.isoformat()}">${post.formatted_date(date_format + " %H:%M")}</time>
+        <span class="fa fa-calendar"></span> <time class="published" datetime="${post.date.isoformat()}">${post.formatted_date(date_format + " %H:%M")}</time>
         ${helper.html_translations(post)}
         ${helper.html_tags(post)}
         % if not hide_sourcelink:
