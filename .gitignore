@@ -6,4 +6,4 @@ cache/*
 .doit.db.db
 *_bak*
 conf_local.py
-
+data/*.db
